@@ -1,0 +1,32 @@
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    background-color: black;
+}
+h1 {
+    grid-column: 3/4;
+    grid-row: 1/1;
+    color: white;
+}
+nav {
+    grid-column: 3/4;
+    grid-row: 2/2;
+    background-color: #880808;
+}
+nav a {
+    background-color: #880808;
+    color: white;
+}
+nav a:hover {
+    background-color: #490d0d;
+}
+.info {
+    grid-column: 3/5;
+    grid-row: 3/3;
+    color: white;
+}
+img {
+    grid-column: 3/5;
+    grid-row: 3/3;
+}
