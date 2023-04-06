@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+p {
+    color: white
+}
+h1 {
+    color: white
+}
+nav {
+    background-color: #880808;
+}
+nav a {
+    background-color: #880808;
+    color: white;
+}
+nav a:hover {
+    background-color: #490d0d;
+}
+h4 {
+    color: white;
+}
